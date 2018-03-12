@@ -1,8 +1,9 @@
-public class Destroyer extends Battleship {
-    public int hits = 5;
+public class Frigate extends Battleship{
+    public int hits = 3;
 
     @Override
     public int getSize() {
         return this.hits;
     }
+
 }
