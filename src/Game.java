@@ -1,12 +1,13 @@
 public class Game {
     public static void main(String[] args){
         System.out.println("Hello Game!");
-        int[] myboard = createboard();
+        Game game = new Game();
+        int[] myboard = game.createboard();
         Game mygame = null;
         mygame = new Game();
         mygame.newgame();
     };
-    public static int[] createboard(){
+    public int[] createboard(){
         int board[];
         board = new int[64];
         String output = String.format("board length: %s", board.length);
