@@ -11,6 +11,7 @@ public class GameServer {
         System.out.println("started client");
         GameServer game = new GameServer();
         game.serverstart();
+        System.out.println("stopped server");
     }
 
     public void serverstart() {
